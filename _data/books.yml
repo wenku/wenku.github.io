@@ -1,0 +1,13 @@
+# Book information registry
+
+shiji:
+  name:
+    hans: 史记
+    hant: 史記
+  pinyin: shǐ jì
+  author:
+    hans: 司马迁
+    hant: 司馬遷
+  status:
+    hans: initial
+    hant: reviewing
