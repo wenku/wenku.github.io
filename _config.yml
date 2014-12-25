@@ -5,9 +5,9 @@ markdown: redcarpet
 
 footers:
   - title: 關於
-    url: "#about"
+    url: "/about"
   - title: 幫助
-    url: "#help"
+    url: "/help"
 
 exclude:
   - README.md

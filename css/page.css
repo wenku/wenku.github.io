@@ -1,0 +1,30 @@
+.hentry {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+.hentry h1 {
+  text-align: center;
+}
+.hentry .entry-content {
+  margin-top: 40px;
+}
+.navigation {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  text-align: center;
+}
+.navigation a {
+  display: inline-block;
+  text-decoration: none;
+  border: 3px solid rgba(0, 0, 0, 0.07);
+  padding: 6px 30px;
+  border-radius: 30px;
+  font-family: "Georgia", "Xin Gothic", "Hiragino Sans GB", "WenQuanYi Micro Hei", "Microsoft YaHei", sans-serif;
+  color: #888;
+  margin: 0 5px 12px 0;
+}
+.navigation a:hover {
+  border-color: #666;
+}
