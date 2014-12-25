@@ -1,0 +1,3 @@
+*.py[co]
+_site/
+.DS_Store

@@ -1,0 +1,14 @@
+title: 文庫
+timezone: Asia/Shanghai
+
+markdown: redcarpet
+
+footers:
+  - title: 關於
+    url: "#about"
+  - title: 幫助
+    url: "#help"
+
+exclude:
+  - README.md
+  - Makefile

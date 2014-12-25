@@ -1,0 +1,15 @@
+all:
+  - history
+  - novel
+
+
+history:
+  title: 史書
+  url: "#history"
+  prose: 我讀書少，你別騙我
+
+
+novel:
+  title: 小說
+  url: "#novel"
+  prose: 古今多逸事，閒情偶寄時

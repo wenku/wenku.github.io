@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="css/yue.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <aside class="sidebar yue">
+    <h1 class="brand" role="banner"><a href="/">{{ site.title }}</a></h1>
+    <ul class="nav" role="navigation">
+      {% for key in site.data.categories.all %}
+      {% assign nav = site.data.categories[key] %}
+      <li><a href="{{ nav.url }}"><h4>{{ nav.title }}</h4><p>{{ nav.prose }}</p></a></li>
+      {% endfor %}
+    </ul>
+    <footer class="footer-links">
+      {% for item in site.footers %}
+      <a href="{{ item.url }}">{{ item.title }}</a>
+      {% endfor %}
+    </footer>
+  </aside>
+  <div class="wrapper">
+    {{ content }}
+  </div>
+</body>
+</html>

@@ -1,0 +1,84 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.sidebar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 380px;
+  padding: 0 30px 66px;
+  background-color: #fafafa;
+  border-left: 1px solid #efefef;
+  border-color: rgba(0, 0, 0, 0.03);
+  box-sizing: border-box;
+}
+.sidebar a {
+  text-decoration: none;
+}
+.brand {
+  padding-top: 20px;
+  border-bottom: 1px solid #eee;;
+}
+.brand a {
+  font-family: "Hiragino Mincho ProN", "Droid Sans Fallback", "Microsoft YaHei", sans-serif;
+  color: rgb(58, 66, 82);
+  text-decoration: none;
+}
+.sidebar .nav {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+.sidebar .nav li {
+  display: block;
+  margin: 18px 0 10px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #f0f0f0;
+}
+.sidebar .nav li:last-of-type {
+  border-bottom: none;
+}
+.sidebar .nav li:hover {
+  border-color: #dadada;
+}
+.sidebar .nav h4, .sidebar .nav p {
+  margin: 0;
+  padding: 0;
+}
+.sidebar .nav a {
+  display: block;
+}
+.sidebar .nav h4 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.2;
+  color: rgba(0, 0, 0, 0.6);
+}
+.sidebar .nav p {
+  font-family: "Kaiti TC", "Droid Sans Fallback", "Microsoft YaHei", sans-serif;
+  font-weight: 100;
+  font-size: 16px;
+  opacity: 0.8;
+}
+.footer-links {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  margin-top: 30px;
+  padding: 20px 30px;
+  font-size: 16px;
+  box-sizing: border-box;
+  background-color: #eee;
+}
+.footer-links a {
+  font-weight: 300;
+  text-decoration: none;
+  margin-right: 1em;
+  opacity: 0.8;
+}
+.footer-links a:hover {
+  text-decoration: underline;
+}
