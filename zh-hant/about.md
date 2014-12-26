@@ -31,4 +31,4 @@ title: 關於
 
 我們需要你的幫助，爲文庫貢獻一份力量吧。
 
-<div class="button"><a href="/help">如何加入</a></div>
+<div class="button"><a href="/zh-hant/help">如何加入</a></div>

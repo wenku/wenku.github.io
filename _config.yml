@@ -8,14 +8,14 @@ footers:
       hant: 關於
       hans: 关于
     url:
-      hant: "/zh-tw/about"
-      hans: "/zh-cn/about"
+      hant: "/zh-hant/about"
+      hans: "/zh-hans/about"
   - title:
       hant: 幫助
       hans: 帮助
     url:
-      hant: "/zh-tw/help"
-      hans: "/zh-cn/help"
+      hant: "/zh-hant/help"
+      hans: "/zh-hans/help"
 
 exclude:
   - README.md
