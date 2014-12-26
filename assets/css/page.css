@@ -1,3 +1,7 @@
+body {
+  padding: 0;
+  margin: 0;
+}
 .hentry {
   max-width: 680px;
   margin: 0 auto;
@@ -29,4 +33,15 @@
 }
 .button a:hover {
   border-color: #666;
+}
+
+@media (max-width: 560px) {
+  .navigation {
+    top: 10px;
+    right: 10px;
+  }
+  .hentry {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
 }
