@@ -94,11 +94,12 @@ body {
 .book {
   border-bottom: 1px solid #fafafa;
 }
-.book-title {
+.book .book-title {
   font-weight: 400;
-}
-.zh-hant .book-title {
   font-family: "Hiragino Mincho ProN", "Droid Sans Fallback", "Microsoft YaHei", sans-serif;
+}
+.zh-hans .book-title {
+  font-family: "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei", sans-serif;
 }
 .book-title a {
   color: #222;

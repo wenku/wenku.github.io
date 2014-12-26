@@ -3,6 +3,21 @@ layout: page
 title: 幫助
 ---
 
-## Markdown 說明
+## 如何參與
 
-## Git 的使用
+## 格式說明
+
+## 罕見字方案
+
+古籍裏會出現不少罕見字，比如這個：
+
+![𩏶](http://glyphwiki.org/glyph/u293f6.svg)
+
+這個字念 jiū。位於 Unicode CJK Ext-B: U+293F6，在錄入這個字時，使用如下格式：
+
+```
+<rare data-code="293F6" data-pinyin="jiū">米韋隹火</rare>
+```
+
+每本書我們會生成一套對應的罕見字字體，在網頁上時使用 Web Font 調用罕見字字體來顯示，在生成 EPUB
+時將罕見字字體作爲 Embed Font 內置於 EPUB 文件內。
