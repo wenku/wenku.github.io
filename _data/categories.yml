@@ -4,12 +4,20 @@ all:
 
 
 history:
-  title: 史書
   url: "#history"
-  prose: 我讀書少，你別騙我
+  title:
+    hant: 史書
+    hans: 史书
+  prose:
+    hant: 我讀書少，你別騙我
+    hans: 我读书少，你别骗我
 
 
 novel:
-  title: 小說
   url: "#novel"
-  prose: 古今多逸事，閒情偶寄時
+  title:
+    hant: 小說
+    hans: 小说
+  prose:
+    hant: 古今多逸事，閒情偶寄時
+    hans: 古今多逸事，闲情偶寄时

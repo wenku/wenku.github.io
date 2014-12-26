@@ -4,11 +4,14 @@ timezone: Asia/Shanghai
 markdown: redcarpet
 
 footers:
-  - title: 關於
+  - hant: 關於
+    hans: 关于
     url: "/about"
-  - title: 幫助
+  - hant: 幫助
+    hans: 帮助
     url: "/help"
 
 exclude:
   - README.md
   - Makefile
+  - fetch.py

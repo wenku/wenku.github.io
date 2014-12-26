@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="css/yue.css">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="assets/css/yue.css">
+  <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
   <aside class="sidebar yue">
@@ -13,17 +13,21 @@
     <ul class="nav" role="navigation">
       {% for key in site.data.categories.all %}
       {% assign nav = site.data.categories[key] %}
-      <li><a href="{{ nav.url }}"><h4>{{ nav.title }}</h4><p>{{ nav.prose }}</p></a></li>
+      <li><a href="{{ nav.url }}">
+        <h4 data-hans="{{ nav.title.hans }}">{{ nav.title.hant }}</h4>
+        <p data-hans="{{ nav.prose.hans }}">{{ nav.prose.hant }}</p>
+      </a></li>
       {% endfor %}
     </ul>
     <footer class="footer-links">
       {% for item in site.footers %}
-      <a href="{{ item.url }}">{{ item.title }}</a>
+      <a href="{{ item.url }}" data-hans="{{ item.hans }}">{{ item.hant }}</a>
       {% endfor %}
     </footer>
   </aside>
   <div class="wrapper">
     {{ content }}
   </div>
+  <script src="assets/index.js"></script>
 </body>
 </html>
