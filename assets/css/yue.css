@@ -7,8 +7,8 @@
  */
 
 .yue {
-  font: 400 20px/1.62 "Georgia", "Xin Gothic", "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei", sans-serif;
-  color: #444e61;
+  font: 400 18px/1.62 "Xin Gothic", "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei", sans-serif;
+  color: #444443;
 }
 
 .windows .yue {
@@ -30,8 +30,8 @@
 .yue h4,
 .yue h5,
 .yue h6 {
-  font-family: "Georgia", "Xin Gothic", "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei", "SimSun", sans-serif;
-  color: rgb(61, 70, 87);
+  font-family: "Xin Gothic", "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei", "SimSun", sans-serif;
+  color: #222223;
 }
 
 .yue h1 {
@@ -71,28 +71,34 @@
 }
 
 .yue a {
-  color: rgb(96, 105, 121);
+  color: #606979;
   word-wrap: break-word;
   -moz-text-decoration-color: rgba(0, 0, 0, 0.4);
   text-decoration-color: rgba(0, 0, 0, 0.4);
 }
 
 .yue a:hover {
-  color: rgb(58, 66, 82);
+  color: #3a4252;
   -moz-text-decoration-color: rgba(0, 0, 0, 0.6);
   text-decoration-color: rgba(0, 0, 0, 0.6);
+}
+
+.yue h1 a,
+.yue h2 a,
+.yue h3 a {
+  text-decoration: none;
 }
 
 .yue strong,
 .yue b {
   font-weight: 700;
-  color: rgb(61, 70, 87);
+  color: #222223;
 }
 
 .yue em,
 .yue i {
   font-style: italic;
-  color: rgb(61, 70, 87);
+  color: #222223;
 }
 
 .yue img {
@@ -119,7 +125,6 @@
   display: block;
   max-width: 100%;
   margin: auto auto 4px;
-  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
@@ -132,12 +137,12 @@
   margin-top: 10px;
   font-weight: 400;
   font-size: 14px;
-  color: rgb(77, 87, 105);
+  color: #666665;
 }
 
 .yue figure figcaption a {
   text-decoration: none;
-  color: rgb(77, 87, 105);
+  color: #666665;
 }
 
 .yue hr {
@@ -152,25 +157,24 @@
   margin: 0 0 1.64em 0;
   border-left: 3px solid #dadada;
   padding-left: 12px;
-  color: rgb(87, 96, 113);
+  color: #666664;
 }
 
 .yue blockquote a {
-  color: rgb(87, 96, 113);
+  color: #666664;
 }
 
 .yue ul,
 .yue ol {
   margin: 0 0 24px 6px;
+  padding-left: 16px;
 }
 
 .yue ul {
-  padding-left: 16px;
   list-style-type: square;
 }
 
 .yue ol {
-  padding-left: 30px;
   list-style-type: decimal;
 }
 
@@ -212,6 +216,7 @@
   border: 1px solid #dadada;
   border-radius: 3px;
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  word-wrap: break-word;
 }
 
 .yue pre {
@@ -238,10 +243,13 @@
 
 .yue table {
   width: 100%;
+  max-width: 100%;
   border-collapse: collapse;
   border-spacing: 0;
   margin-bottom: 1.5em;
   font-size: 0.96em;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .yue th,

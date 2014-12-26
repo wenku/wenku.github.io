@@ -46,6 +46,9 @@
 
   if (isHans()) {
     toHans();
+    document.body.className = 'zh-hans';
+  } else {
+    document.body.className = 'zh-hant';
   }
 
 })();

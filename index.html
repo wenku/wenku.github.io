@@ -2,3 +2,11 @@
 layout: default
 title: 文庫
 ---
+
+{% for book in site.data.books %}
+<div class="book">
+  <h2 class="book-title">
+    <a data-hans="{{ book[1].title.hans }}" href="https://github.com/wenku/{{ book[0] }}">{{ book[1].title.hant }}</a>
+  </h2>
+</div>
+{% endfor %}
