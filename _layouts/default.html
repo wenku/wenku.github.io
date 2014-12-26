@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="assets/css/yue.css">
-  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/yue.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
 </head>
 <body>
   <aside class="sidebar yue">
@@ -21,7 +21,7 @@
     </ul>
     <footer class="footer-links">
       {% for item in site.footers %}
-      <a href="{{ item.url }}" data-hans="{{ item.hans }}">{{ item.hant }}</a>
+      <a href="{{ item.url.hant }}" data-hans="{{ item.title.hans }}" data-hans-href="{{ item.url.hans }}">{{ item.title.hant }}</a>
       {% endfor %}
     </footer>
   </aside>

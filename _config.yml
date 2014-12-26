@@ -4,12 +4,18 @@ timezone: Asia/Shanghai
 markdown: redcarpet
 
 footers:
-  - hant: 關於
-    hans: 关于
-    url: "/about"
-  - hant: 幫助
-    hans: 帮助
-    url: "/help"
+  - title:
+      hant: 關於
+      hans: 关于
+    url:
+      hant: "/zh-tw/about"
+      hans: "/zh-cn/about"
+  - title:
+      hant: 幫助
+      hans: 帮助
+    url:
+      hant: "/zh-tw/help"
+      hans: "/zh-cn/help"
 
 exclude:
   - README.md
