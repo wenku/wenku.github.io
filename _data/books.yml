@@ -1,13 +1,42 @@
 # Book information registry
 
 shiji:
+  category: history
+  pinyin: shǐ jì
   title:
     hans: 史记
     hant: 史記
-  pinyin: shǐ jì
   author:
     hans: 司马迁
     hant: 司馬遷
   status:
-    hans: initial
-    hant: reviewing
+    hans: 未开始
+    hant: 校對中
+
+
+hanshu:
+  category: history
+  pinyin: hàn shū
+  title:
+    hans: 汉书
+    hant: 漢書
+  author:
+    hans: 班固
+    hant: 班固
+  status:
+    hans: 未开始
+    hant: 錄入中
+
+
+youyangzazu:
+  category: novel
+  pinyin: yǒu yáng zá zǔ
+  title:
+    hans: 酉阳杂俎
+    hant: 酉陽雜俎
+  author:
+    hans: 段成式
+    hant: 段成式
+  status:
+    hans: 未开始
+    hant: 校對中
